@@ -1,7 +1,7 @@
 """
 Dependency Inversion Principle
-- high level modules should not depend on low level ones
-- use abstractions
+- High level modules should not depend on low level ones
+- Use abstractions
 """
 
 from enum import Enum

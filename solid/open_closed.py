@@ -1,6 +1,6 @@
 """
 Open-closed principle
-- classes should be open for extension but closed for
+- Classes should be open for extension but closed for
   modification
 """
 
