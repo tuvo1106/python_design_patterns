@@ -1,23 +1,47 @@
-# python_design_patterns
+# Python Design Patterns
 
-Gamma Categorization
- * Design Patterns are typically split into three categories
- * This is called Gamma Categorization after Erich Gamma,
-   one of GoF authors
- * Creational Patterns
-   * Deal with the creation (construction) of objects
-   * Explicit (constructor) vs implicit (DI, reflection, etc.)
-   * Wholesale (single statement) vs piecewise (step-by-step)
- * Structural Patterns
-   * Concerned with the structure (e.g. class members)
-   * Many patterns are wrappers that mimic the underlying class interface
-   * Stress the importance of good API design
- * Behavioral Patterns
-   * They are all different, no central theme
+## Description
+* This repository contains an overview of the Gang of Four (GoF) design patterns as outlined in their seminal book, together with modern-day variations, adjustments, discussions of intrinsic use of patterns in Python.
 
-Builder
-  * A builder is a separate component for building an object
-  * Can either give builder an initializer or return it via a static function
-  * To make builder fluent, return self
-  * Different facets of an object can be built with
-    different builders working in tandem via a base class
+## Learning Objectives
+* SOLID Design Principles: 
+  * [Single Responsibility Principle](/solid/single_responsibility.py)
+  * [Open-Closed Principle](/solid)(/solid/open_closed.py)
+  * [Liskov Substitution Principle](/solid/liskov.py)
+  * [Interface Segregation Principle](/solid/interface_segregation.py)
+  * [Dependency Inversion Principle](/solid/dependency_inversion.py)
+* Creational Design Patterns:
+  * [Builder](/builder)
+  * [Factories (Factory Method and Abstract Factory)](/factories)
+  * Prototype
+  * Singleton
+* Structrural Design Patterns:
+  * Adapter
+  * Bridge
+  * Composite
+  * Decorator
+  * Façade
+  * Flyweight
+  * Proxy
+* Behavioral Design Patterns
+  * Chain of Responsibility
+  * Command
+  * Interpreter
+  * Iterator
+  * Mediator
+  * Memento
+  * Observer
+  * State
+  * Strategy
+  * Template
+  * Method
+  * Visitor
+
+## Usage
+
+* All files were created and compiled on Mac OS X 10.11 with Python3 (version 3.7)
+
+---
+
+## Author
+* __Tu Vo__
