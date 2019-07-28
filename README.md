@@ -21,7 +21,7 @@
     * A factory is an entity that can take care of object creation
     * A factory can be external or reside inside the object as an inner class
     * Hierarchies of factories can be used to create related objects
-  * Prototype
+  * [Prototype](/prototype)
     * To implement a prototype, partially construct an object and store it somewhere
     * Deep copy the prototype
     * Customize the resulting instance
