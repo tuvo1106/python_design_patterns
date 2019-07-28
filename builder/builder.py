@@ -12,7 +12,6 @@ Motivation
 - instead, opt for piecewise construction
 - Builder provides an API for constructing an object
   step-by-step
-
 """
 
 # simple scenario

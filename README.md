@@ -22,6 +22,10 @@
     * A factory can be external or reside inside the object as an inner class
     * Hierarchies of factories can be used to create related objects
   * Prototype
+    * To implement a prototype, partially construct an object and store it somewhere
+    * Deep copy the prototype
+    * Customize the resulting instance
+    * A factory provides a convenient API for using prototypes
   * Singleton
 * Structrural Design Patterns:
   * Adapter
