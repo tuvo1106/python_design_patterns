@@ -1,9 +1,11 @@
 # Python Design Patterns
 
 ## Description
+
 * This repository contains an overview of the Gang of Four (GoF) design patterns as outlined in their seminal book, together with modern-day variations, adjustments, discussions of intrinsic use of patterns in Python.
 
 ## Learning Objectives
+
 * SOLID Design Principles:
   * [Single Responsibility Principle](/solid/single_responsibility.py)
   * [Open-Closed Principle](/solid/open_closed.py)
@@ -32,8 +34,13 @@
     * Monostate variation
     * Testability issues
 * Structural Design Patterns:
-  * Adapter
+  * [Adapter](/adapter)
+    * Implementing an Adapter is easy
+    * Determine the API you have and the API you need
+    * Create a component which aggregates (has a reference to, ...) the adaptee
+    * Intermediate representations can pile up: use caching and other optimizations
   * Bridge
+    * daf
   * Composite
   * Decorator
   * Façade
@@ -58,9 +65,11 @@
 * All files were created and compiled on Mac OS X 10.11 with Python3 (version 3.7)
 
 ## Awknowledgements
+
 * Dmitri Nesteruk's course "Design Patterns in Python" on Udemy.com
 
 ---
 
 ## Author
+
 * __Tu Vo__
