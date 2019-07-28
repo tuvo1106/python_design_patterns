@@ -43,7 +43,12 @@
     * Decouple abstraction from implementation
     * Both can exist as hierarchies
     * A stronger form of encapsulation
-  * Composite
+  * [Composite](/composite)
+    * Objects can use other objects via inheritance/composition
+    * Some composed and singular objects need similar/identical behaviors
+    * Composite design pattern lets us treat both types of objects uniformly
+    * Python supports iteration with __iter__ and Iterable ABC
+    * A single object can itself iterable by yielding self from __iter__
   * Decorator
   * Façade
   * Flyweight
