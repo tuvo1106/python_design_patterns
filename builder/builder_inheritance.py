@@ -38,6 +38,6 @@ pb = PersonBirthDateBuilder()
 me = pb\
 .called('Dmitri')\
 .works_as_a('Quant')\
-.born('1/1/1980')
+.born('1/1/1980')\
 .build()
-print(me) 
+print(me)
