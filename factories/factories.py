@@ -20,9 +20,11 @@ Motivation
 from enum import Enum
 from math import cos, sin
 
+
 class CoordinateSystem(Enum):
     CARTESIAN = 1
     POLAR = 2
+
 
 class Point:
     # naive
@@ -38,7 +40,7 @@ class Point:
         self.x = x
         self.y = y
 
-    def __str__(self ):
+    def __str__(self):
         return f'x: {self.x}, y: {self.y}'
 
     @staticmethod

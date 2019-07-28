@@ -8,13 +8,14 @@ def singleton(class_):
 
     return get_instance
 
+
 # decorator
 @singleton
 class Database:
     def __init__(self):
         print('Loading database')
 
-d1 = Database()
-d2 = Database()
+D1 = Database()
+D2 = Database()
 
-print(d1 == d2)
+print(D1 == D2)

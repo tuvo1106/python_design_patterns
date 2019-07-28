@@ -1,5 +1,6 @@
 import copy
 
+
 class Address:
     def __init__(self, street_address, suite, city):
         self.street_address = street_address
@@ -9,6 +10,7 @@ class Address:
     def __str__(self):
         return f'{self.street_address}, Suite {self.suite}, {self.city}'
 
+
 class Employee:
     def __init__(self, name, address):
         self.address = address
@@ -16,6 +18,7 @@ class Employee:
 
     def __str__(self):
         return f'{self.name} works at {self.address}'
+
 
 class EmployeeFactory:
     main_office_employee = Employee('', Address('123 East Drive', 0, 'London'))

@@ -12,7 +12,9 @@ Motivation
 - Want to prevent anyone from creating additional copies
 - Need to take care of lazy instantiation
 """
+
 import random
+
 
 class Database:
 
@@ -27,12 +29,12 @@ class Database:
     def __new__(cls, *args, **kwargs):
         if not cls._instance:
             cls._instance = super(Database, cls)\
-            .__new__(cls, *args, **kwargs)
+               .__new__(cls, *args, **kwargs)
         return cls._instance
 
-d1 = Database()
-d2 = Database()
+D1 = Database()
+D2 = Database()
 
-print(d1 == d2)
+print(D1 == D2)
 
 # approach is not good enough, initializer still gets called

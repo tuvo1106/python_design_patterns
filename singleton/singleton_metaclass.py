@@ -7,10 +7,11 @@ class Singleton(type):
                .__call__(*args, **kwargs)
         return cls._instances[cls]
 
+
 class Database(metaclass=Singleton):
     def __init__(self):
         print('Loading database')
 
-d1 = Database()
-d2 = Database()
-print(d1 == d2)
+D1 = Database()
+D2 = Database()
+print(D1 == D2)

@@ -5,8 +5,10 @@ Interface Segregation Principle
 - YAGNI - You Aint Gonna Need It
 """
 
-#before
+from abc import abstractmethod
 
+
+# before
 class Machine:
     def print(self, doc):
         raise NotImplementedError
@@ -17,6 +19,7 @@ class Machine:
     def scan(self, doc):
         raise NotImplementedError
 
+
 class MultiFunctionPrinter(Machine):
     def print(self, doc):
         pass
@@ -26,6 +29,7 @@ class MultiFunctionPrinter(Machine):
 
     def scan(self, doc):
         pass
+
 
 class OldFashionedPrinter(Machine):
     def print(self, doc):
@@ -40,23 +44,24 @@ class OldFashionedPrinter(Machine):
         # cannot scan
         pass
 
-#after
 
-from abc import abstractmethod
-
+# after
 class Printer:
     @abstractmethod
     def print(self, doc):
         pass
+
 
 class Scanner:
     @abstractmethod
     def scan(self, doc):
         pass
 
+
 class MyPrint(Printer):
     def print(self, doc):
         print(doc)
+
 
 class Photocopier(Printer, Scanner):
     def print(self, doc):
@@ -64,6 +69,7 @@ class Photocopier(Printer, Scanner):
 
     def scan(self, doc):
         pass
+
 
 class MultiFunctionDevice(Printer, Scanner):
     @abstractmethod
@@ -73,6 +79,7 @@ class MultiFunctionDevice(Printer, Scanner):
     @abstractmethod
     def scan(self, doc):
         pass
+
 
 class MultiFunctionMachine(MultiFunctionDevice):
     def __init__(self, printer, scanner):

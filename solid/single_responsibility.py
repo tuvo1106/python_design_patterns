@@ -6,6 +6,7 @@ Single Responsibility Principle
       tasks/problems
 """
 
+
 class Journal:
     def __init__(self):
         self.entries = []
@@ -34,17 +35,17 @@ class Journal:
     def load_from_web(self, url):
         pass
 
-j = Journal()
-j.add_entry('I cried today.')
-j.add_entry('I ate a bug.')
-print(f'Journal entries:\n{j}')
+J = Journal()
+J.add_entry('I cried today.')
+J.add_entry('I ate a bug.')
+print(f'Journal entries:\n{J}')
 
-#instead, create another class to handle that responsibility
 
+# instead, create another class to handle that responsibility
 class PersistenceManager:
 
     @staticmethod
-    def save_to_file(journal, filename):
+    def save_to_file(self, journal, filename):
         file = open(filename, 'w')
         file.write(str(self))
         file.close()
