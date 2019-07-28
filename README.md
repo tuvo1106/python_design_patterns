@@ -26,7 +26,7 @@
     * Deep copy the prototype
     * Customize the resulting instance
     * A factory provides a convenient API for using prototypes
-  * Singleton
+  * [Singleton](/singleton)
     * Different realizations of Singleton: custom allocator, decorator, metaclass
     * Laziness is easy, just init on first request
     * Monostate variation
