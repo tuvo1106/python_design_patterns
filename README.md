@@ -6,7 +6,7 @@
 ## Learning Objectives
 * SOLID Design Principles: 
   * [Single Responsibility Principle](/solid/single_responsibility.py)
-  * [Open-Closed Principle](/solid)(/solid/open_closed.py)
+  * [Open-Closed Principle](/solid/open_closed.py)
   * [Liskov Substitution Principle](/solid/liskov.py)
   * [Interface Segregation Principle](/solid/interface_segregation.py)
   * [Dependency Inversion Principle](/solid/dependency_inversion.py)
@@ -40,6 +40,9 @@
 ## Usage
 
 * All files were created and compiled on Mac OS X 10.11 with Python3 (version 3.7)
+
+## Awknowledgements
+* Dmitri Nesteruk's course "Design Patterns in Python" on Udemy.com
 
 ---
 
