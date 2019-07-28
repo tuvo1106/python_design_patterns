@@ -15,17 +15,18 @@ Motivation
 """
 
 # simple scenario
-text = 'hello'
-parts = ['<p>', text, '</p>']
-print(''.join(parts))
+TEXT = 'hello'
+PARTS = ['<p>', TEXT, '</p>']
+print(''.join(PARTS))
 
 # more complicated
-words = ['hello', 'world']
-parts = ['<ul>']
-for w in words:
-    parts.append(f'\t<li>{w}</li>')
-parts.append('</ul>')
-print('\n'.join(parts))
+WORDS = ['hello', 'world']
+PARTS = ['<ul>']
+for w in WORDS:
+    PARTS.append(f'\t<li>{w}</li>')
+PARTS.append('</ul>')
+print('\n'.join(PARTS))
+
 
 class HtmlElement:
     indent_size = 2
@@ -84,20 +85,21 @@ class HtmlBuilder:
     def __str__(self):
         return str(self.__root)
 
-builder = HtmlBuilder('ul')
-builder.add_child('li', 'hello')
-builder.add_child('li', 'world')
+
+BUILDER = HtmlBuilder('ul')
+BUILDER.add_child('li', 'hello')
+BUILDER.add_child('li', 'world')
 print('Ordinary builder:')
-print(builder)
+print(BUILDER)
 
 # chaining methods
-fluent_builder = HtmlBuilder('ul')
-fluent_builder.add_child_fluent('li', 'hello').add_child_fluent('li', 'world')
+FLUENT = HtmlBuilder('ul')
+FLUENT.add_child_fluent('li', 'hello').add_child_fluent('li', 'world')
 print('Fluent builder:')
-print(fluent_builder)
+print(FLUENT)
 
 # create
-created_builder = HtmlElement.create('ul')
-created_builder.add_child_fluent('li', 'python')
+CREATED = HtmlElement.create('ul')
+CREATED.add_child_fluent('li', 'python')
 print('Created builder:')
-print(created_builder)
+print(CREATED)
