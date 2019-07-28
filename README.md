@@ -39,8 +39,10 @@
     * Determine the API you have and the API you need
     * Create a component which aggregates (has a reference to, ...) the adaptee
     * Intermediate representations can pile up: use caching and other optimizations
-  * Bridge
-    * daf
+  * [Bridge](/bridge/bridge.py)
+    * Decouple abstraction from implementation
+    * Both can exist as hierarchies
+    * A stronger form of encapsulation
   * Composite
   * Decorator
   * Façade
