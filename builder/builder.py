@@ -1,7 +1,7 @@
 """
 Builder
  - When piecewise object construction is complicated,
-   provide an API for doing it succintly
+   provide an API for doing it succinctly
 
 Motivation
 - some objects are simply and can be created in a single

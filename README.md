@@ -27,7 +27,11 @@
     * Customize the resulting instance
     * A factory provides a convenient API for using prototypes
   * Singleton
-* Structrural Design Patterns:
+    * Different realizations of Singleton: custom allocator, decorator, metaclass
+    * Laziness is easy, just init on first request
+    * Monostate variation
+    * Testability issues
+* Structural Design Patterns:
   * Adapter
   * Bridge
   * Composite
