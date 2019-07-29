@@ -47,6 +47,7 @@
     * Objects can use other objects via inheritance/composition
     * Some composed and singular objects need similar/identical behaviors
     * Composite design pattern lets us treat both types of objects uniformly
+<<<<<<< HEAD
     * Python supports iteration with __iter__ and Iterable ABC
     * A single object can itself iterable by yielding self from __iter__
   * [Decorator](/decorator)
@@ -55,6 +56,11 @@
     * May or may not forward calls to the underlying object
     * Proxying of underlying calls can be done dynamically
     * Python's functional decorators wrap functions; no direct relation to the GoF Decorator Pattern
+=======
+    * Python supports iteration with \_\_iter\_\_ and Iterable ABC
+    * A single object can itself iterable by yielding self from \_\_iter\_\_
+  * Decorator
+>>>>>>> 81f635d40b1093d45aed06697174302fa382056c
   * Façade
   * Flyweight
   * Proxy
