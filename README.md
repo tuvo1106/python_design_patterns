@@ -56,6 +56,9 @@
     * Proxying of underlying calls can be done dynamically
     * Python's functional decorators wrap functions; no direct relation to the GoF Decorator Pattern
   * Façade
+    * Build a Facade to provide a simplified API over a set of classes
+    * May wish to (optionally) expose internals through the facade
+    * May allow users to 'escalate' to use more complex API
   * Flyweight
   * Proxy
 * Behavioral Design Patterns
