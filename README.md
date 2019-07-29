@@ -47,8 +47,8 @@
     * Objects can use other objects via inheritance/composition
     * Some composed and singular objects need similar/identical behaviors
     * Composite design pattern lets us treat both types of objects uniformly
-    * Python supports iteration with __iter__ and Iterable ABC
-    * A single object can itself iterable by yielding self from __iter__
+    * Python supports iteration with \_\_iter\_\_ and Iterable ABC
+    * A single object can itself iterable by yielding self from \_\_iter\_\_
   * Decorator
   * Façade
   * Flyweight
