@@ -83,7 +83,10 @@
     * Barring simple cases, an interpreter acts in two stages
     * Lexing turns text into a set of tokens
     * Parsing tokens into meaningful construct
-  * Iterator
+  * [Iterator](/iterator)
+    * An iterator specified how you can traverse an object
+    * Stateful iterators cannot be recursive
+    * yield allows for much more succinct iteration
   * Mediator
   * Memento
   * Observer
