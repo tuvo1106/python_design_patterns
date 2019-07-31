@@ -70,6 +70,10 @@
     * Different proxies (communications, logging, caching, etc.) have completely different behaviors
 * Behavioral Design Patterns
   * Chain of Responsibility
+    * Chain of responsibility can be implemented as a chain of references or
+      a centralized construct
+    * Enlist objects in the chain, possibly controlling their order
+    * Object removal from chain (e.g., \_\_exit\_\_)
   * Command
   * Interpreter
   * Iterator
