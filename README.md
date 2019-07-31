@@ -69,12 +69,14 @@
     * Add relevant functionality to the redefined member functions
     * Different proxies (communications, logging, caching, etc.) have completely different behaviors
 * Behavioral Design Patterns
-  * Chain of Responsibility
+  * [Chain of Responsibility](/chain_of_res)
     * Chain of responsibility can be implemented as a chain of references or
       a centralized construct
     * Enlist objects in the chain, possibly controlling their order
     * Object removal from chain (e.g., \_\_exit\_\_)
-  * Command
+  * [Command](/command)
+    * Encapsulate all details of an operation in a separate object
+    * Define instruction for applything the command (either in the command itself, or elsewhere)
   * Interpreter
   * Iterator
   * Mediator
