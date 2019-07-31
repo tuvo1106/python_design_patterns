@@ -77,7 +77,12 @@
   * [Command](/command)
     * Encapsulate all details of an operation in a separate object
     * Define instruction for applything the command (either in the command itself, or elsewhere)
-  * Interpreter
+    * Optionally define instructions for undoing the command
+    * Can create composite commands (a.k.a. macros)
+  * [Interpreter](/interpreter)
+    * Barring simple cases, an interpreter acts in two stages
+    * Lexing turns text into a set of tokens
+    * Parsing tokens into meaningful construct
   * Iterator
   * Mediator
   * Memento
