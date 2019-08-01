@@ -99,8 +99,12 @@
     * A memento is simply a token/handle class with typically no function of its own
     * A memento is not required to expose directly the state(s) to which it reverts the system
     * Can be used to implement undo/redo
-  * Observer
+  * [Observer](/observer)
+    * Observer is an intrusive approach: an observable must provide an event to subscribe to
+    * Subsciption and unsubscription with additional/removal of items in list
+    * Property notifications are easy: dependent property notifications are tricky
   * State
+    * 
   * Strategy
   * Template
   * Method
