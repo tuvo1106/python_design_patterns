@@ -37,8 +37,8 @@ JOHN = Person('John', Address('123 London Road', 'London', 'UK'))
 print(JOHN)
 
 # does not work
-# jane = john
-# jane.name = john
+# JANE = JOHN
+# JANE.name = JOHN
 
 # need to make deep copy
 JANE = copy.deepcopy(JOHN)

@@ -87,7 +87,13 @@
     * An iterator specified how you can traverse an object
     * Stateful iterators cannot be recursive
     * yield allows for much more succinct iteration
-  * Mediator
+  * [Mediator](/mediator)
+    * Create the mediator and have each object in the system refer to it
+      * E.g., in a property
+    * Mediator engages in bidirectional communication with its connected components
+    * Mediator has functions the components can call
+    * Components have functions the mediator can call
+    * Event processing (e.g., Rx) libraries make communication easier to implement
   * Memento
   * Observer
   * State

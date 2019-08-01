@@ -44,8 +44,8 @@ class EmployeeFactory:
             EmployeeFactory.aux_office_employee,
             name, suite
         )
-john = EmployeeFactory.new_main_office_employee('John', 101)
-jane = EmployeeFactory.new_aux_office_employee('John', 600)
+JOHN = EmployeeFactory.new_main_office_employee('John', 101)
+JANE = EmployeeFactory.new_aux_office_employee('John', 600)
 
-print(john)
-print(jane)
+print(JOHN)
+print(JANE)
