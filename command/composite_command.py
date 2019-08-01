@@ -107,16 +107,16 @@ class MoneyTransferCommand(CompositeBankAccountCommand):
 
 class TestSuite(unittest.TestCase):
     def test_composite_deposit(self):
-        ba = BankAccount()
-        deposit1 = BankAccountCommand(ba,
+        BA = BankAccount()
+        deposit1 = BankAccountCommand(BA,
                                       BankAccountCommand.Action.DEPOSIT, 1000)
-        deposit2 = BankAccountCommand(ba,
+        deposit2 = BankAccountCommand(BA,
                                       BankAccountCommand.Action.DEPOSIT, 1000)
         composite = CompositeBankAccountCommand([deposit1, deposit2])
         composite.invoke()
-        print(ba)
+        print(BA)
         composite.undo()
-        print(ba)
+        print(BA)
 
     def test_transfer_fail(self):
         ba1 = BankAccount(100)
