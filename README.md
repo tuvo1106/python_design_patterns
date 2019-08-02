@@ -1,4 +1,4 @@
-# Python Object-Oriented Programming Design Patterns
+# Python Design Patterns
 
 ## Description
 
