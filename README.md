@@ -103,8 +103,13 @@
     * Observer is an intrusive approach: an observable must provide an event to subscribe to
     * Subsciption and unsubscription with additional/removal of items in list
     * Property notifications are easy: dependent property notifications are tricky
-  * State
-    * 
+  * [State](/state)
+    * Given sufficient complexity, it pays to formally define possible states and events/triggers
+    * Can define
+      * State entry/exit behaviors
+      * Action when a particular event causes a transition
+      * Guard conditions enabling/disabling a transition
+      * Default action when no transitions are found for an event
   * Strategy
   * Template
   * Method
