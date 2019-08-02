@@ -2,7 +2,7 @@
 
 ## Description
 
-* This repository contains an overview of the Gang of Four (GoF) design patterns as outlined in their seminal book, together with modern-day variations, adjustments, discussions of intrinsic use of patterns in Python.
+* This repository contains an overview of the Gang of Four (GoF) design patterns with modern-day variations, adjustments, and  discussions in Python.
 
 ## Learning Objectives
 
