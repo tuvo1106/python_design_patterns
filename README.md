@@ -118,8 +118,10 @@
     * Define an algorithm at a high level in parent class
     * Define constituent parts as abstract methods/properties
     * Inherit the algorthm class, providing the necessary ovverides
-  * Method
-  * Visitor
+  * [Visitor](/visitor)
+    * OOP double-dispatch approach is not necessary in Python
+    * Make a visitor, decorating each 'overload' with @visitor
+    * Call visit() and the entire structure gets traversed
 
 ## Usage
 
