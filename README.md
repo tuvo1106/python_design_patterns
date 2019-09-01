@@ -125,7 +125,7 @@
 
 ## Usage
 
-- All files were created and compiled on Mac OS X 10.11 with Python3 (version 3.7)
+- All files are created and executed on Mac OS X 10.11 with Python3 (version 3.7)
 
 ## Awknowledgements
 
